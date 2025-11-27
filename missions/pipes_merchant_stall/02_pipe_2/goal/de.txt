@@ -1,0 +1,30 @@
+Missionsziel
+============
+
+Kombiniere mehrere Befehle mit ``|``, um die Anzahl der 
+unbezahlten Artikel zu finden.
+
+Hinweis
+-------
+
+Du hast nur einen einzigen Befehl.
+
+Du kannst den Zähler jederzeit mit `gsh reset` zurücksetzen, aber 
+der gesamte Stand wird neu generiert.
+
+
+Nützliche Befehle
+=================
+
+grep [OPTIONEN] STRING DATEI1 ... DATEIn
+  Filtere die Zeilen der Dateien und behalte nur die, die den 
+  angegebenen String enthalten.
+  Wenn keine Datei angegeben wird, verwendet der Befehl stdin.
+
+  Nützliche Option
+    -v : zeige nur die Zeilen, die den String **nicht enthalten**.
+
+wc DATEI
+  Zähle die Anzahl der Zeilen / Wörter / Zeichen in einer Datei
+  Wenn keine Datei angegeben wird, zählt ``wc`` Zeilen / Wörter / 
+  Zeichen auf stdin.

@@ -1,0 +1,32 @@
+Missionsziel
+============
+
+Kombiniere mehrere Befehle mit "|", um den Diamanten im Labyrinth 
+zu finden, und verschiebe ihn in deine Truhe.
+
+
+Hinweis
+-------
+
+Der Dateiname enthält nicht den String "diamond". Du musst eine 
+Datei finden, die den String "diamond" enthält.
+
+
+Nützliche Befehle
+=================
+
+find
+  Suche Dateien vom aktuellen Arbeitsverzeichnis aus.
+  Bedingungen für die Datei können über Dateinamen, Größe, 
+  Änderungsdatum usw. hinzugefügt werden.
+
+grep [OPTIONEN] STRING DATEI1 ... DATEIn
+  Suche nach einem String innerhalb der Dateien.
+
+  Nützliche Option:
+    -l gibt nur die Namen der Dateien aus, die den String enthalten.
+
+xargs BEFEHL
+  liest Zeilen von stdin und führt den Befehl aus
+    BEFEHL ZEILE1 ZEILE2 ... ZEILEn
+  ``xargs`` ist besonders nützlich nach einer ``|``-Umleitung.

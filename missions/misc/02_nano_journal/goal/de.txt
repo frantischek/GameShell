@@ -1,0 +1,29 @@
+Missionsziel
+============
+
+Erstelle eine Datei namens "journal.txt" in deiner Truhe und 
+schreibe eine kurze Nachricht hinein.
+Du kannst diese Datei verwenden, um deine Notizen und Lösungen für 
+die kommenden Missionen aufzuzeichnen.
+
+Details
+-------
+
+``nano`` ist ein Kommandozeilen-Texteditor. Du kannst ihn immer 
+verwenden, wenn du eine Datei von der Shell aus bearbeiten musst.
+
+
+Nützliche Befehle
+=================
+
+nano DATEI
+  Bearbeite die Datei von der Shell aus.
+  (Wenn die Datei nicht existiert, wird sie erstellt.)
+
+  Tastenkombinationen werden am unteren Bildschirmrand angezeigt 
+  (das "^"-Symbol bedeutet "Control"). Die wichtigsten sind:
+    Control-x     beenden
+    Control-o     speichern
+    Control-w     nach einem String suchen
+
+  Hinweis: Verwende nicht Control-s oder Control-z!

@@ -1,0 +1,30 @@
+Missionsziel
+============
+
+Merlins alte Zauberbücher werden in seinem Büro in der Bibliothek 
+aufbewahrt. Du musst eine Liste aller dieser Zauberbücher (und 
+nichts anderes) in einer Datei namens "inventory.txt" in der 
+Schublade speichern...
+
+
+Nützliche Befehle
+=================
+
+BEFEHL  >  DATEI
+  Sende die Ausgabe des Befehls in eine Datei, anstatt sie auf dem 
+  Bildschirm anzuzeigen.
+
+less DATEI
+  zeige den Inhalt einer Datei an, eine Seite auf einmal
+
+  Wichtige Tastenkombinationen sind
+    q         beenden
+    Leertaste eine Seite nach unten scrollen
+    / STRING  nach einem String suchen
+    n         gehe zum nächsten Vorkommen des
+              Suchstrings
+
+ls DATEI1 ... DATEIn
+  Zeige die Liste der als Argumente angegebenen Dateien an.
+  Dies ist besonders nützlich, wenn du Shell-Muster mit 
+  Platzhaltern verwendest.

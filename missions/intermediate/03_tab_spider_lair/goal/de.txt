@@ -1,0 +1,28 @@
+Missionsziel
+============
+
+Hinten im Keller gibt es eine kleine Öffnung, die zur Höhle der 
+Spinnenkönigin führt.
+Gehe dorthin und entferne die Spinnenkönigin (und nichts anderes).
+
+
+Hinweis: Du hast nur begrenzte Zeit (20 Sekunden), um das zu tun. 
+Du kannst den Befehl ``gsh reset`` verwenden, um den Timer 
+zurückzusetzen.
+
+Außerdem: Shell-Muster wurden deaktiviert. Du kannst die 
+Platzhalter ``*`` oder ``?`` nicht verwenden.
+
+
+Nützliche Befehle
+=================
+
+Tab
+  Die "Tabulator"-Taste vervollständigt den Namen einer Datei oder 
+  eines Verzeichnisses, sobald du den Anfang des Namens eingegeben 
+  hast. Dies funktioniert nur, wenn es nur eine mögliche 
+  Vervollständigung gibt.
+
+Tab-Tab
+  Zweimaliges Drücken der "Tabulator"-Taste zeigt eine Liste 
+  möglicher Vervollständigungen.

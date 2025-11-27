@@ -1,0 +1,33 @@
+Missionsziel
+============
+
+Ein vergesslicher alter Einsiedler namens Servillus hat sein Lager 
+in einer Höhle mit seinem alten, ledergebundenen Zaubertrank-Buch 
+aufgeschlagen.
+Gehe zur Höhle und hilf ihm, sich an das Rezept seines berühmten 
+Kräutertees zu erinnern.
+
+Um die Mission zu bestätigen, musst du in der Höhle bei Servillus 
+sein **und** dein letzter Befehl vor ``gsh check`` muss das Rezept 
+(einschließlich seines Titels) anzeigen, aber nichts anderes.
+
+Hinweis: Du sollst den Inhalt des Zaubertrank-Buches nicht ändern.
+
+
+Nützliche Befehle
+=================
+
+cat DATEI
+  Zeige den Inhalt der Datei an.
+
+head DATEI
+  Zeige die ersten 10 Zeilen der Datei an.
+
+head -n K DATEI
+  Zeige die ersten K Zeilen der Datei an.
+
+Hinweis
+-------
+
+Eine "DATEI" kann Verzeichnisse enthalten, wenn sich die 
+betreffende Datei nicht im aktuellen Verzeichnis befindet.

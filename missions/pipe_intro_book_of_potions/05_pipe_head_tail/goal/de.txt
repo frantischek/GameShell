@@ -1,0 +1,38 @@
+Missionsziel
+============
+
+Der alte Einsiedler ist durstig und möchte, dass du das Rezept für 
+destilliertes Wasser nachschlägst.
+
+Um die Mission zu bestätigen, musst du in der Höhle bei Servillus 
+sein **und** dein letzter Befehl vor ``gsh check`` muss die 
+Schritte des Rezepts anzeigen und nichts anderes.
+
+Hinweis: Du sollst den Inhalt des Zaubertrank-Buches nicht ändern.
+
+
+Nützliche Befehle
+=================
+
+head [-n K] [DATEI]
+  Zeige die ersten Zeilen (standardmäßig 10, K wenn ``-n K`` 
+  verwendet wird) der angegebenen Datei oder der Standardeingabe, 
+  wenn keine Datei angegeben wird.
+
+tail [-n K] [DATEI]
+  Zeige die letzten Zeilen (standardmäßig 10, K wenn ``-n K`` 
+  verwendet wird) der angegebenen Datei oder der Standardeingabe, 
+  wenn keine Datei angegeben wird.
+
+BEFEHL1  |  BEFEHL2
+  Führe die beiden Befehle aus und leite die "Standardausgabe" des 
+  ersten in die "Standardeingabe" des zweiten.
+  Hinweis: In Analogie zur Sanitärtechnik wird "|" "Pipe" (Rohr) 
+  genannt.
+
+
+Hinweis
+-------
+
+Teile in [eckigen Klammern] in Befehlsbeschreibungen stehen für 
+optionale Teile. Die Klammern sind nicht Teil des Befehls.

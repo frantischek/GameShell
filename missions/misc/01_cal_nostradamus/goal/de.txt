@@ -1,0 +1,18 @@
+Missionsziel
+============
+
+Nostradamus hat eine spektakuläre Sternenkonjunktion am 
+$MM-$DD-$YYYY vorausgesagt.
+Aber welcher Wochentag wird das sein?
+
+Wenn du es weißt, führe den Befehl ``gsh check`` aus.
+
+
+Nützliche Befehle
+=================
+
+cal
+  Zeige einen Kalender für den aktuellen Monat an.
+
+cal JAHR
+  Zeige einen Kalender für das angegebene Jahr an.

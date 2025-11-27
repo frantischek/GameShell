@@ -1,0 +1,21 @@
+GameShell-spezifische Befehle
+=============================
+
+gsh check
+  prüft, ob das Ziel der aktuellen Mission erreicht 
+  wurde oder nicht
+
+gsh exit   /   Control-d
+  GameShell beenden
+  (Sie können von der aktuellen Mission aus starten, 
+  indem Sie GameShell mit dem Flag "-C" ausführen)
+
+gsh goal [N]
+  zeigt das Ziel der aktuellen Mission an
+  wenn N angegeben wird, wird das Ziel für Mission N angezeigt
+
+gsh help
+  kürzere Hilfenachricht
+
+gsh reset
+  setzt die aktuelle Mission zurück

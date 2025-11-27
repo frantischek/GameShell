@@ -1,0 +1,54 @@
+Missionsziel
+============
+
+Der alte Einsiedler bemerkt dein Interesse an Zaubertrank-Rezepten 
+und sieht Potenzial in deiner Fähigkeit, Zutatenlisten 
+nachzuschlagen. Er fordert dich heraus, die Schritte für das 
+Elixier der Jugend zu finden.
+
+Um die Mission zu bestätigen, musst du in der Höhle bei Servillus 
+sein **und** dein letzter Befehl vor ``gsh check`` muss die 
+Schritte des Rezepts anzeigen und nichts anderes.
+
+Hinweis: Du sollst den Inhalt des Zaubertrank-Buches nicht ändern.
+
+
+Nützliche Befehle
+=================
+
+cat DATEI1 DATEI2 ... DATEIn
+  Zeige den Inhalt der Dateien der Reihe nach an.
+
+tail
+  Zeige die letzten 10 Zeilen an, die auf die Standardeingabe 
+  gesendet wurden.
+
+tail -n K
+  Zeige die letzten K Zeilen an, die auf die Standardeingabe 
+  gesendet wurden.
+
+BEFEHL1  |  BEFEHL2
+  Führe die beiden Befehle aus und leite die "Standardausgabe" des 
+  ersten in die "Standardeingabe" des zweiten.
+  Hinweis: In Analogie zur Sanitärtechnik wird "|" "Pipe" (Rohr) 
+  genannt.
+
+
+Erklärungen
+===========
+
+Viele Unix-Befehle verarbeiten Text: Sie empfangen Text als Eingabe 
+und erzeugen Text als Ausgabe.
+
+Es ist üblich, dass diese Befehle ihre Ausgabe auf ihre 
+"Standardausgabe" schreiben, was bedeutet, dass (standardmäßig) 
+die Ausgabe ins Terminal geschrieben wird.
+
+Die meisten dieser Befehle können Eingaben entweder über Dateien 
+(als Argumente angegeben) oder von ihrer "Standardeingabe" 
+erhalten. Zum Beispiel:
+- ``head DATEI`` liest seine Eingabe aus der Datei,
+- ``head`` liest seine Eingabe von der Standardeingabe.
+
+Standardmäßig werden Daten von der Standardeingabe von der 
+Tastatur gelesen, aber eine Pipe kann das ändern.

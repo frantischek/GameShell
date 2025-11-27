@@ -1,0 +1,27 @@
+Missionsziel
+============
+
+Es wird gemunkelt, dass der König die Kombination zu seinem Safe 
+auf einer Notiz in seinem Zimmer notiert hat.
+Finde diese Kombination.
+
+Hinweis
+-------
+
+Der König hat wahrscheinlich versucht, diese Notiz unlesbar zu 
+machen!
+
+
+Nützliche Befehle
+=================
+
+ls -l
+  Listet die Dateien mit ihren wichtigen Metadaten auf.
+
+  Zugriffsberechtigungen werden in jeder Zeile zuerst aufgelistet.
+
+chmod [OPTIONEN] DATEI
+  Ändert die Berechtigungen für die Datei (oder das Verzeichnis).
+
+  Im Handbuch findest du, welche Optionen verfügbar sind.
+

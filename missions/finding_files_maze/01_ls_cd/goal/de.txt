@@ -1,0 +1,9 @@
+Missionsziel
+============
+
+Finde die Kupfermünze im kleinen Labyrinth im Garten und verschiebe 
+sie in deine Truhe.
+
+Wenn du möchtest, kannst du einen grafischen Dateimanager 
+verwenden. Das Labyrinth befindet sich im Verzeichnis
+  $maze

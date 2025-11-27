@@ -1,0 +1,14 @@
+Missionsziel
+============
+
+Gehe zurück in den Keller und werde alle Spinnen los. Lass die 
+Fledermäuse in Ruhe: Sie erscheinen auf dem Wappen des Schlosses 
+und sollen Glück bringen.
+
+
+Nützliche Befehle
+=================
+
+rm DATEI1 DATEI2 ... DATEIn
+  Lösche die Dateien (dauerhaft).
+  Hinweis: ``rm`` ist eine Abkürzung für "remove" (entfernen).

@@ -1,0 +1,24 @@
+Missionsziel
+============
+
+Während du durch das Schloss wanderst, hast du das Gefühl, 
+beobachtet zu werden... Drehe deinen Kopf schnell genug und du 
+siehst vielleicht, wie die Augen eines der Gemälde dir folgen.
+
+1/ Führe den Befehl ``xeyes`` aus und stoppe ihn.
+2/ Führe den Befehl ``xeyes`` im Hintergrund aus.
+
+
+Nützliche Befehle
+=================
+
+xeyes
+  Öffnet ein Fenster mit 2 Augen, die deiner Maus folgen.
+
+BEFEHL &
+  Führe den Befehl im Hintergrund aus.
+
+Control-c       (auch geschrieben ^c)
+  Das gleichzeitige Drücken von Control und c unterbricht den 
+  aktuellen Befehl, indem das INT-Signal ("INTerrupt") an den 
+  Prozess gesendet wird.

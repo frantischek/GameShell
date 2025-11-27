@@ -1,0 +1,32 @@
+Missionsziel
+============
+
+Der Pyrotechniker des Königs erscheint neben dir. Er bittet dich, 
+**mindestens 3 aufeinanderfolgende Feuerwerke** abzufeuern, damit 
+er sie von weit weg sehen kann.
+
+Ein einzelnes Feuerwerk kann mit dem magischen Wort erstellt werden
+
+  $command
+
+
+Nützliche Befehle
+=================
+
+$command
+  Dieser (nicht-standardmäßige) Befehl erstellt ein einzelnes 
+  kleines Feuerwerk.
+
+BEFEHL &
+  Führe den angegebenen Befehl aus, aber warte nicht, bis er 
+  fertig ist.
+  Der Befehl wird im "Hintergrund" ausgeführt.
+
+BEFEHL1 ; BEFEHL2 ; ... ; BEFEHLn
+  Führe die angegebenen Befehle nacheinander aus.
+  Jeder Befehl wird ausgeführt, wenn der vorherige fertig ist.
+
+BEFEHL1 & BEFEHL2 & ... & BEFEHLn
+  Führe die angegebenen Befehle "parallel" aus.
+  Alle Befehle werden im "Hintergrund" ausgeführt, außer dem 
+  letzten.

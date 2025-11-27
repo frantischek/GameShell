@@ -1,0 +1,37 @@
+Missionsziel
+============
+
+Erstelle einen Alias "journal", um deine Journaldatei einfach zu 
+bearbeiten, egal wo du bist.
+
+
+Details
+-------
+
+Um die Journaldatei mit ``nano`` zu bearbeiten, zum Beispiel vom 
+Keller oder dem Thronsaal aus, musst du den vollständigen Pfad zur 
+Datei angeben: "~/Forest/.../journal.txt".
+
+Um zu vermeiden, diesen langen Befehl jedes Mal einzugeben, kannst 
+du einen Alias erstellen, genau wie
+
+  alias la='ls -a'
+
+
+Nützliche Befehle
+=================
+
+nano DATEI
+  Bearbeite die Datei von der Shell aus.
+  (Wenn die Datei nicht existiert, wird sie erstellt.)
+
+alias STRING='BEFEHL'
+  Erstelle ein Synonym für einen String, der für einen Befehl steht.
+
+
+Hinweis
+-------
+
+Wenn (und nur wenn) du weißt was du tust, kannst du die 
+``EDITOR``-Variable verwenden, um deinen Lieblingseditor zu 
+definieren und ihn im Alias zu verwenden.

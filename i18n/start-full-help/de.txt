@@ -1,0 +1,51 @@
+Verwendung:
+      $GSH_EXEC_FILE [OPTIONEN] [INDEX_DATEI1 INDEX_DATEI2 ...]
+
+Mögliche Werte für INDEX_DATEI<n> sind: $GSH_INDEX_FILES.
+
+Wenn keine INDEX_DATEI angegeben wird, wird default.idx verwendet.
+
+Indexdateien werden ignoriert, wenn von einer Speicherdatei fortgesetzt wird.
+
+
+Optionen:
+  -h      einfache Hilfenachricht
+  -H      diese Nachricht
+  -V      zeigt die Version an
+  -I      zeigt die Liste der verfügbaren Indexdateien
+
+  -M passport       Passmodus: fragt nach Name / E-Mail des Spielers
+  -M anonymous      anonymer Modus
+  -M debug          Debug-Modus
+  -d                Alias für -M debug
+  -D                ausführlicher Debug-Modus
+
+  -C      aktuelles Spiel fortsetzen (falls relevant)
+  -R      Spiel zurücksetzen
+  -F      nicht nach neueren Speicherdateien suchen, das angegebene Archiv verwenden
+
+  -L ...  LANGUAGE-Variable setzen (z.B.: -L de:en:fr)
+          Auf Nicht-GNU-Systemen setzen Sie die Variable LC_MESSAGES auf eine gültige Locale.
+  -L ""   gettext wird nicht verwendet und alles wird auf Englisch sein
+          Das -L Flag wird ignoriert, wenn von einer Speicherdatei fortgesetzt wird.
+
+  -S simple
+          die Speicherdatei erhält ein "-save" Suffix,
+          jede Speicherdatei überschreibt die vorherige
+  -S index
+          Speicherdateien werden nummeriert, sodass alle Speicherdateien erhalten bleiben
+  -S overwrite
+          die Speicherdatei überschreibt die ursprüngliche GameShell-Datei
+          (Sie können die Option -R verwenden, um ein neues Spiel von Anfang an zu starten)
+
+  -B      bash verwenden
+  -Z      zsh verwenden
+
+  -q      leise: keine Informationsnachrichten anzeigen
+  -n      schwarz-weiß: keine ANSI-Escape-Codes für Farben verwenden
+  -c ...  diesen Befehl an GameShell übergeben (zum Testen)
+
+  -U      neueste Version von GameShell herunterladen (erfordert Netzwerkzugang)
+  -X      nur tgz-Archiv extrahieren
+  -K      temporäres GameShell-Verzeichnis beim Beenden nicht entfernen
+

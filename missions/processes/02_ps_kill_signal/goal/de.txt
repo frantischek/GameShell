@@ -1,0 +1,42 @@
+Missionsziel
+============
+
+Der schelmische Kobold hat mehr als einen Trick auf Lager. Es ist 
+ihm gelungen, seinen Zauber gegen die meisten Eingriffe zu schützen.
+Du musst diesen Zauber finden und versuchen, ihn mit dem 
+Standardsignal zu entfernen. Wenn das nicht funktioniert, verwende 
+ein brutaleres Signal.
+
+
+Hinweis
+-------
+
+Der Zauber ist ein Prozess.
+
+
+Nützliche Befehle
+=================
+
+$PS
+  Liste die Prozesse auf, die gerade von der Shell ausgeführt werden.
+
+kill [OPTIONEN] N
+  Sende das Beendigungssignal an Prozess Nummer N.
+
+  Nützliche Optionen:
+    -s SIGNAL   wähle den Signalnamen
+    -NUMBER     wähle die Signalnummer
+    -l          liste verfügbare Signale auf
+
+clear
+  Lösche den Bildschirm.
+  Die Tastenkombination "Control-L" macht dasselbe und ist oft 
+  schneller im Terminal zu verwenden.
+
+Details
+-------
+
+Standardmäßig sendet ``kill`` das "TERM"-Signal an die Prozesse 
+(TERM steht für "termination", Beendigung).
+Prozesse können einige Signale ignorieren, aber das "KILL"-Signal 
+kann nicht ignoriert werden!

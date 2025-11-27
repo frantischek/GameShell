@@ -1,0 +1,18 @@
+Missionsziel
+============
+
+Sammle alle Münzen, die du im Garten vor dem Schloss finden 
+kannst, und lege sie in deine Truhe in deiner Hütte im Wald.
+
+
+Nützliche Befehle
+=================
+
+mv DATEI1 DATEI2 ... DATEIn VERZEICHNIS
+  Verschiebe die Dateien in das Verzeichnis.
+  Hinweis: ``mv`` ist eine Abkürzung für "move" (verschieben).
+
+~
+  Das "~"-Symbol ist eine Abkürzung für das Startverzeichnis.
+  Beispiel: Wo auch immer du bist, ``~/Tavern`` bezeichnet das 
+  Verzeichnis (oder die Datei) "Tavern" im Startverzeichnis.

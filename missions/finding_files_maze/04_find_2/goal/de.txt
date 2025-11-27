@@ -1,0 +1,45 @@
+Missionsziel
+============
+
+Suche den Rubin im Labyrinth im Garten und verschiebe ihn in deine 
+Truhe.
+
+Tipp
+----
+
+Der Dateiname enthält nicht den String "ruby". Da es nicht viele 
+Dateien im Labyrinth gibt, ist eine mögliche Strategie, nach allen 
+**Dateien** (im Gegensatz zu Verzeichnissen) zu suchen und von Hand 
+zu überprüfen, welche den String "ruby" enthält.
+
+
+Nützliche Befehle
+=================
+
+find
+  Suche Dateien / Verzeichnisse vom aktuellen Arbeitsverzeichnis aus.
+
+  Bedingungen können über Namen, Größe, Änderungsdatum usw. 
+  hinzugefügt werden.
+  Eine interessante Bedingung ist:
+    -type TYP
+
+cat DATEI
+  Gib den Inhalt der Datei auf dem Bildschirm aus.
+
+man BEFEHL
+  Zeige das Handbuch des Befehls an.
+
+  Wichtige Tastenkombinationen:
+    q           beenden
+    Leertaste   eine Seite nach unten scrollen
+    / STRING    nach dem String suchen
+    n           nächstes Vorkommen des
+                Suchstrings finden
+
+Hinweis
+-------
+
+Die Beschreibung des ``find``-Befehls ist absichtlich kurz gehalten. 
+Weitere Informationen findest du im Handbuch. (Du kannst zum 
+Beispiel nach dem String "-type" im Handbuch suchen.)

@@ -1,0 +1,30 @@
+Missionsziel
+============
+
+Um in der magischen Kunst besser zu werden, muss man Kopfrechnen 
+beherrschen.
+
+Mach dich bereit, denn Merlin wird deine Geschwindigkeit bei 
+Produkten testen.
+
+Führe den Befehl ``gsh check`` aus, um zu beginnen.
+
+Hinweis
+-------
+
+Es gibt jetzt eine Zeitbeschränkung.
+
+Tipp
+----
+
+Es wird gemunkelt, dass die Bibliothek einige Mathematikbücher und 
+versteckte Bände enthält.
+
+
+Nützliche Befehle
+=================
+
+BEFEHL  <  DATEI
+  Ersetze die Standardeingabe des Befehls durch eine Datei.
+  Anstatt Zeilen vom Tastaturgerät zu lesen, wird der Befehl 
+  Zeilen aus der Datei lesen.
