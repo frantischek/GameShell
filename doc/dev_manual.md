@@ -7,4 +7,4 @@
 
 
 Anything missing?
-Feel free to [open an issue](https://github.com/phyver/GameShell/issues/new).
+Feel free to [open an issue](https://github.com/frantischek/GameShell/issues/new).
