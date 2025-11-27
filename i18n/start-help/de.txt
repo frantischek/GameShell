@@ -1,0 +1,23 @@
+Verwendung:
+      $GSH_EXEC_FILE [OPTIONEN] [INDEX_DATEI1 INDEX_DATEI2 ...]
+
+Mögliche Werte für INDEX_DATEI<n> sind: $GSH_INDEX_FILES.
+
+Wenn keine INDEX_DATEI angegeben wird, wird default.idx verwendet.
+
+Indexdateien werden ignoriert, wenn von einer Speicherdatei fortgesetzt wird.
+
+
+Hauptoptionen:
+  -h      diese Nachricht
+  -H      zeigt alle verfügbaren Optionen
+  -V      zeigt die Version an
+  -I      zeigt die Liste der verfügbaren Indexdateien
+
+  -R      Spiel zurücksetzen
+  -F      nicht nach neueren Speicherdateien suchen, das angegebene Archiv verwenden
+
+  -L ...  LANGUAGE-Variable setzen (z.B.: -L de:en:fr)
+          Auf Nicht-GNU-Systemen setzen Sie die Variable LC_MESSAGES auf eine gültige Locale.
+          Dieses Flag wird ignoriert, wenn von einer Speicherdatei fortgesetzt wird.
+

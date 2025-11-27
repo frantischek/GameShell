@@ -1,0 +1,3 @@
+Verwenden Sie den Befehl
+    $ gsh help
+um die Liste der "gsh"-Befehle zu erhalten.

@@ -1,0 +1,14 @@
+Missionsziel
+============
+
+Baue eine "Hut" (Hütte) im Wald und dann eine "Chest" (Truhe) in 
+der Hütte.
+
+
+Nützliche Befehle
+=================
+
+mkdir VERZEICHNIS
+  Erstelle ein neues Verzeichnis im aktuellen Verzeichnis.
+  Hinweis: ``mkdir`` ist eine Abkürzung für "make directory" 
+  (Verzeichnis erstellen).

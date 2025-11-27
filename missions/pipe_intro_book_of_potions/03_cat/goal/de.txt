@@ -1,0 +1,22 @@
+Missionsziel
+============
+
+Während er das Geschirr spült, erwähnt Servillus einen interessanten 
+Zaubertrank, der es dem Trinker ermöglicht, (vorübergehend) das 
+physische Erscheinungsbild einer beliebigen Person anzunehmen.
+Lies das Rezept des Tranks aus dem Buch des Einsiedlers.
+
+Um die Mission zu bestätigen, musst du in der Höhle bei Servillus 
+sein **und** dein letzter Befehl vor ``gsh check`` muss das ganze 
+Rezept anzeigen (mit seinem Titel).
+
+Hinweis: Du sollst den Inhalt des Zaubertrank-Buches nicht ändern.
+
+
+Nützliche Befehle
+=================
+
+cat DATEI1 DATEI2 ... DATEIn
+  Zeige den Inhalt der Dateien der Reihe nach an.
+  Hinweis: ``cat`` ist eine Abkürzung für "concatenate" 
+  (verketten).

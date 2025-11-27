@@ -1,0 +1,28 @@
+Missionsziel
+============
+
+Das Überprüfen auf versteckte Dateien dauert zu lange!
+
+Erstelle einen Alias "la", um den Befehl ``ls -A`` auszuführen und 
+alle Dateien, einschließlich versteckter, mit nur 2 Buchstaben 
+aufzulisten.
+
+Definiere das Synonym
+
+  la
+
+für den Befehl
+
+  ls -A
+
+und prüfe, ob es wie erwartet funktioniert.
+
+Was für ein Glück, da ist ein schöner Stein versteckt, genau dort 
+wo du bist.
+
+
+Nützliche Befehle
+=================
+
+alias STRING='BEFEHL'
+  Erstelle ein Synonym für einen String, der für einen Befehl steht.

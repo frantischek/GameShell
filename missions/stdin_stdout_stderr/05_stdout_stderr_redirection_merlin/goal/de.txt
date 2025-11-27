@@ -1,0 +1,34 @@
+Missionsziel
+============
+
+Merlin ist verrückt geworden... Er läuft im Beobachtungsturm auf 
+und ab und murmelt unzusammenhängend.
+
+Du musst sein Gefasel herausfiltern, um den geheimen Schlüssel zu 
+entdecken, den nur er kennt.
+
+Tipp
+----
+
+Es ist wahrscheinlich, dass Merlins Nachricht voller Fehler ist.
+Um diese Mission abzuschließen, musst du den geheimen Schlüssel 
+**mit einer Dateiumleitung** angeben.
+
+
+Nützliche Befehle
+=================
+
+./DATEI
+  Führe eine ausführbare Datei als Programm aus. Es versteht sich 
+  von selbst, dass Merlin ausführbar ist...
+
+BEFEHL  >  DATEI
+  Sende die Standardausgabe (stdout) des Befehls an eine Datei.
+  (Die Datei wird überschrieben.)
+
+BEFEHL  2>  DATEI
+  Sende die Fehlerausgabe (stderr) des Befehls an eine Datei.
+  (Die Datei wird überschrieben.)
+
+BEFEHL  <  DATEI
+  Sende die Datei an die Standardeingabe (stdin) des Befehls.

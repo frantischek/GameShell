@@ -1,0 +1,83 @@
+GameShell-spezifische Befehle
+=============================
+
+gsh assert condition [MSG]
+  prüft, ob die Bedingung wahr ist
+  falls nicht, wird eine Fehlermeldung angezeigt
+
+gsh assert check true/false [MSG]
+  prüft, ob das Ziel der aktuellen Mission erreicht wurde
+  wenn das Ergebnis nicht mit dem erwarteten Ergebnis übereinstimmt, 
+  wird eine Fehlermeldung angezeigt
+
+gsh auto                              (ADMIN)
+  führt das automatische Skript der aktuellen Mission aus, falls vorhanden
+
+gsh check
+  prüft, ob das Ziel der aktuellen Mission erreicht wurde oder 
+  nicht
+
+gsh env
+  zeigt interne Umgebungsvariablen an
+
+gsh exit
+  beendet (und speichert) das aktuelle Spiel
+
+gsh goal [N]
+  zeigt das Ziel der aktuellen Mission an
+  wenn N angegeben wird, wird das Ziel für Mission N angezeigt
+
+gsh goto [N]                          (ADMIN)
+  springt direkt zu Mission N
+  (kein Passwort erforderlich, wenn N eine frühere Mission ist)
+
+gsh hardreset
+  setzt die aktuelle Mission durch Neustart der Shell zurück
+
+gsh HELP
+  diese Nachricht
+
+gsh help
+  kürzere Hilfenachricht
+
+gsh index
+  zeigt die Liste der Missionen mit ihrem Status an
+
+gsh log [-v]
+  zeigt die Protokolldatei der gsh-Befehle an
+
+gsh pcm
+  gibt die aktuelle Missionsnummer aus
+
+gsh protect
+gsh unprotect
+  fügt Schutz für GameShell-Verzeichnisse hinzu / entfernt ihn
+
+gsh reset
+  setzt die aktuelle Mission zurück
+
+gsh resetstatic
+  regeneriert alle statischen Teile der Welt
+
+gsh save FILENAME
+  speichert das aktuelle Spiel in einer Datei
+
+gsh skip                              (ADMIN)
+  gibt die aktuelle Mission auf und geht zur nächsten
+  (kein Passwort erforderlich, wenn die Mission mindestens einmal 
+  abgeschlossen wurde)
+
+gsh stat
+  zeigt einfache Statistiken über abgeschlossene Missionen an
+
+gsh systemconfig
+  zeigt die Systemkonfiguration an
+
+gsh test
+  führt das Testskript der aktuellen Mission aus, falls vorhanden
+
+gsh version
+  zeigt die GameShell-Version an
+
+gsh welcome
+  zeigt die Willkommensnachricht an

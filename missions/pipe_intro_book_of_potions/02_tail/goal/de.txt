@@ -1,0 +1,27 @@
+Missionsziel
+============
+
+Der alte Mann scheint deine Gesellschaft sehr zu genießen. Er lädt 
+dich zum Abendessen ein und beginnt, einen köstlichen Eintopf für 
+euch beide zuzubereiten. Während er den Kessel vorbereitet, bittet 
+er dich um Hilfe.
+Lies ihm die Schritte des Rezepts aus seinem Buch vor.
+
+Um die Mission zu bestätigen, musst du in der Höhle bei Servillus 
+sein **und** dein letzter Befehl vor ``gsh check`` muss die 
+Schritte des Rezepts anzeigen (ohne seinen Titel).
+
+Hinweis: Du sollst den Inhalt des Zaubertrank-Buches nicht ändern.
+
+
+Nützliche Befehle
+=================
+
+cat DATEI
+  Zeige den Inhalt der Datei an.
+
+tail DATEI
+  Zeige die letzten 10 Zeilen der Datei an.
+
+tail -n K DATEI
+  Zeige die letzten K Zeilen der Datei an.

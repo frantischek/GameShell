@@ -1,0 +1,15 @@
+Missionsziel
+============
+
+Du hast Gefallen an den vier Standarten im großen Saal des 
+Schlosses gefunden. Da ein Diebstahl nicht unbemerkt bleiben würde, 
+lege eine Kopie (gleicher Name, gleicher Inhalt) von jeder in 
+deine Truhe.
+
+
+Nützliche Befehle
+=================
+
+cp DATEI VERZEICHNIS
+  Kopiere die Datei in das Verzeichnis.
+  Hinweis: ``cp`` ist eine Abkürzung für "copy" (kopieren).

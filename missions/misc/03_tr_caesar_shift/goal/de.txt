@@ -1,0 +1,36 @@
+Missionsziel
+============
+
+Eine geheime Nachricht wurde gefunden, sie wird in der Schublade in 
+Merlins Büro aufbewahrt. Sie wurde wahrscheinlich mit einer 
+Caesar-Verschiebung verschlüsselt.
+
+Entschlüssle sie durch eine erschöpfende Suche von der 
+Kommandozeile aus.
+
+Tipp
+----
+
+Alle anderen gefundenen geheimen Nachrichten verwendeten eine 
+Verschiebung zwischen 10 und 16.
+
+
+Nützliche Befehle
+=================
+
+tr STRING1 STRING2
+  Ersetze jedes Zeichen STRING1[i] durch STRING2[i] auf der 
+  Standardeingabe und gib das Ergebnis aus.
+  Hinweis: ``tr`` ist eine Abkürzung für "translate" (übersetzen).
+
+  Beispiel: wenn
+      STRING1 = "abcdef"
+      STRING2 = "klmnop"
+  wird die Datei mit folgender Ersetzung ausgegeben (andere Zeichen 
+  bleiben unverändert):
+      a -> k      b -> l      c -> m
+      d -> n      e -> o      f -> p
+
+  Hinweis: Anstatt "abcdefg" ist es möglich "a-g" zu schreiben.
+
+  Dieser Befehl ist besonders nützlich mit einer ``<``-Umleitung.

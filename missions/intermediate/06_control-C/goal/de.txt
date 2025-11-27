@@ -1,0 +1,37 @@
+Missionsziel
+============
+
+Der Pyrotechniker des Königs versucht sich an die magische 
+Beschwörungsformel für das große Finale seines Feuerwerks zu 
+erinnern. Diese Beschwörungsformel beginnt mit dem Wort $command 
+und muss von vier zufälligen Buchstaben gefolgt werden, wie in
+
+  $ $command abcd
+oder
+  $ $command oops
+
+Hilf dem Pyrotechniker, 4 Buchstaben zu finden, die ein passendes 
+Feuerwerk erzeugen.
+
+
+HINWEIS: Wenn die vier Buchstaben falsch sind, kann die magische 
+Reaktion sehr lange dauern. Du musst sie unterbrechen!
+
+Es wird wahrscheinlich mehrere Versuche brauchen, bevor du eine 
+Buchstabenkombination findest, die funktioniert.
+
+
+Nützliche Befehle
+=================
+
+$command CCCC
+  Dieser (nicht-standardmäßige) Befehl erstellt Feuerwerke:
+    - wenn die vier Buchstaben gültig sind, startet das Feuerwerk 
+      nach ein paar Sekunden,
+    - wenn die vier Buchstaben ungültig sind, wird die ganze 
+      magische Reaktion sehr lange dauern.
+
+Control-c       (auch geschrieben ^c)
+  Das gleichzeitige Drücken von Control und c unterbricht den 
+  aktuellen Befehl, indem das INT-Signal ("INTerrupt") an den 
+  Prozess gesendet wird.

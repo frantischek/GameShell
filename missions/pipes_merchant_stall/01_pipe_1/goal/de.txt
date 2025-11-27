@@ -1,0 +1,40 @@
+Missionsziel
+============
+
+Neben dem Schloss gibt es einen Händlerstand. Die Leute kaufen oft 
+auf Kredit und zahlen ihre Schulden zurück, wenn sie können.
+Der Ladenbesitzer führt Buch über jedermanns Schulden auf einer 
+Schriftrolle. Wann immer jemand seine Schulden bezahlt, schreibt 
+er "PAID" (bezahlt) neben die entsprechende Transaktion.
+
+Kombiniere mehrere Befehle mit ``|``, um die Schulden des Königs 
+zu finden.
+
+Hinweis
+-------
+
+Du hast nur 3 Befehle, um die Schulden des Königs zu finden.
+Du kannst den Zähler jederzeit mit `gsh reset` zurücksetzen, aber 
+der gesamte Stand und die Schulden aller werden ebenfalls neu 
+generiert.
+
+
+Tipp
+----
+
+Wenn es keine Unterverzeichnisse gibt, ist eine Alternative zu 
+``find . -name '*langweiliges_objekt*'`` die Verwendung von `ls` 
+und das Filtern des Ergebnisses mit grep:
+  $ ls | grep "langweiliges_objekt"
+
+
+Nützliche Befehle
+=================
+
+grep [OPTIONEN] STRING DATEI1 ... DATEIn
+  Filtere die Zeilen der Dateien und behalte nur die, die den 
+  angegebenen String enthalten.
+  Wenn keine Datei angegeben wird, verwendet ``grep`` stdin.
+
+  Nützliche Option
+    -v : zeige nur die Zeilen, die den String **nicht enthalten**.

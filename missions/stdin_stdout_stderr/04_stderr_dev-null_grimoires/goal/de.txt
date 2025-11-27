@@ -1,0 +1,57 @@
+Missionsziel
+============
+
+Merlins alte Alchemiebücher werden in seinem Büro in der 
+Bibliothek aufbewahrt. Du musst eine Liste aller Bücher ausgeben, 
+die die alchemistische Verbindung 'gsh' (für "Glutathion") enthalten.
+Vorsicht, sie kann mit einer Mischung aus Groß- und Kleinbuchstaben 
+geschrieben werden.
+
+Einige dieser Bücher sind verschlossen, und du darfst sie nicht 
+einsehen. Ignoriere sie.
+
+Hinweis
+-------
+
+Dein letzter Befehl sollte die Liste der Bücher anzeigen, die 'gsh' 
+erwähnen, und nichts anderes.
+Insbesondere solltest du die chemischen Verbindungen selbst nicht 
+anzeigen und es sollte keine Fehlermeldung erscheinen.
+
+
+Nützliche Befehle
+=================
+
+grep STRING DATEI1 ... DATEIn
+  Suche nach einem String in einer Datei und gib die 
+  entsprechenden Zeilen aus.
+  Einige interessante Optionen sind
+    -l : gib nicht die Zeilen aus, sondern nur die Dateinamen, 
+         die den String enthalten
+    -i : unterscheide nicht zwischen Groß- und Kleinschreibung
+
+BEFEHL  >  DATEI
+  Sende Nachrichten (stdout) an die Datei.
+  (Die Datei wird überschrieben.)
+
+BEFEHL  2>  DATEI
+  Sende Fehlermeldungen (stderr) an die Datei.
+  (Die Datei wird überschrieben.)
+
+/dev/null
+  "Virtuelle" Datei, die universell leer ist: Alles, was 
+  hineingesendet wird, verschwindet.
+
+Erklärungen
+-----------
+
+Jeder Befehl kann Nachrichten auf zwei Arten auf dem Bildschirm 
+ausgeben:
+  - Standardausgabe ("stdout")
+  - Fehlerausgabe ("stderr")
+Standardmäßig werden beide Arten von Nachrichten auf dem 
+Bildschirm angezeigt.
+
+Es ist jedoch möglich, beide unabhängig voneinander in Dateien 
+umzuleiten.
+

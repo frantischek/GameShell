@@ -1,0 +1,7 @@
+Herzlichen Glückwunsch!
+
+Ab jetzt kannst du die Datei
+    "~/.gshrc"
+verwenden, um Aliase aufzuzeichnen. Weitere 
+Informationen findest du in der Datei (sie 
+wurde für dich erstellt).

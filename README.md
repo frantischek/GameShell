@@ -18,7 +18,7 @@ Here is the result...
 ![GameShell's first mission](Images/gameshell_first_mission_small.gif)
 
 
-GameShell is available in English, French and Italian.
+GameShell is available in English, French, Italian and German.
 
 
 Feel free to send us your remarks, questions or suggestions by opening

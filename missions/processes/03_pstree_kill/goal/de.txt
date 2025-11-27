@@ -1,0 +1,35 @@
+Missionsziel
+============
+
+Der Kobold vergleicht seine Magie mit einer Fee. Sie haben sich im 
+Keller getroffen, und der Kobold beschwört Kohleklumpen, während 
+die Fee zarte Schneeflocken beschwört.
+
+Entferne die Zauber des Kobolds und die Kohle, die den Keller 
+verschmutzt, aber berühre die Schneeflocken nicht!
+
+
+Hinweis
+-------
+
+Töte nicht den Kobold oder die Fee.
+
+
+Nützliche Befehle
+=================
+
+pstree PID
+  Zeige die Liste der Prozesse mit ihren Eltern-/Kind-Beziehungen 
+  an.
+
+  Wenn keine PID angegeben wird, zeige die Liste aller Prozesse 
+  mit ihren Eltern-/Kind-Beziehungen.
+
+  Nützliche Optionen:
+    -p   zeige die PID der Prozesse
+    $$   Diese Variable enthält die PID der
+         Shell und kann als PID angegeben werden.
+
+kill N
+  Sende das Beendigungssignal an Prozess Nummer N.
+  Hinweis: N wird PID genannt, oder "Prozesskennung".

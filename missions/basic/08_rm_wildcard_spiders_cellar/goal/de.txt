@@ -1,0 +1,30 @@
+Missionsziel
+============
+
+Werde alle Spinnen los, die im Keller herumkrabbeln. Störe die 
+Fledermäuse dabei nicht.
+
+
+Shell-Muster
+============
+
+*
+  Das "*"-Zeichen steht für eine beliebige Zeichenfolge 
+  (einschließlich einer leeren Folge).
+
+?
+  Das "?"-Zeichen steht für ein einzelnes beliebiges Zeichen.
+
+Diese Platzhalter können verwendet werden, um Listen von 
+existierenden Dateien / Verzeichnissen im aktuellen 
+Arbeitsverzeichnis zu bezeichnen.
+
+Beispiel: Wenn der aktuelle Ordner enthält
+      file-1 Folder-1 file-14 potato
+dann
+    *     -->  file-1 Folder-1 file-14 potato
+    *1    -->  file-1 Folder-1
+    *o*   -->  Folder-1 potato
+    x*    -->  Fehler, keine passende Datei
+    *-?   -->  file-1 Folder-1
+    *-??  -->  file-14

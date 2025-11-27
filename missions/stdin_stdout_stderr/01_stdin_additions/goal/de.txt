@@ -1,0 +1,11 @@
+Missionsziel
+============
+
+Um in der magischen Kunst besser zu werden, muss man Kopfrechnen 
+beherrschen.
+
+Mach dich bereit, denn Merlin wird deine Präzision bei Summen 
+testen.
+
+Führe den Befehl ``gsh check`` aus, um zu beginnen.
+

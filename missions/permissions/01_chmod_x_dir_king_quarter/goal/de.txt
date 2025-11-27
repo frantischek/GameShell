@@ -1,0 +1,25 @@
+Missionsziel
+============
+
+Die Tür zum Gemach des Königs befindet sich im Thronsaal.
+Gehe zum Gemach des Königs.
+
+Hinweis
+-------
+
+Der Zugang zu diesem Teil des Schlosses ist wahrscheinlich 
+eingeschränkt.
+
+
+Nützliche Befehle
+=================
+
+ls -l
+  Liste die Dateien mit ihren wichtigen Metadaten auf.
+
+  Zugriffsberechtigungen werden in jeder Zeile zuerst aufgelistet.
+
+chmod [OPTIONEN] DATEI
+  Ändere die Berechtigungen für die Datei (oder das Verzeichnis).
+
+  Im Handbuch findest du, welche Optionen verfügbar sind.

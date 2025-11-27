@@ -1,0 +1,38 @@
+Missionsziel
+============
+
+Gehe zur Spitze des Hauptturms des Schlosses.
+
+
+Nützliche Befehle
+=================
+
+cd ORT
+  Bewege dich zum angegebenen Ort.
+  Hinweis: ``cd`` ist eine Abkürzung für "change directory" 
+  (Verzeichnis wechseln).
+
+pwd
+  Zeige den Pfad zu deinem aktuellen Standort.
+  Hinweis: ``pwd`` ist eine Abkürzung für "print working directory" 
+  (Arbeitsverzeichnis ausgeben).
+
+ls
+  Zeige eine Liste der aktuell zugänglichen Orte.
+  Hinweis: ``ls`` ist eine Abkürzung für "list" (auflisten).
+
+gsh check
+  Prüfe, ob das Missionsziel erreicht wurde.
+
+gsh reset
+  Starte die Mission von vorne.
+
+
+Hinweise
+--------
+
+GROSSGESCHRIEBENE Wörter in Befehlen sind Meta-Variablen: Du musst 
+sie durch passende (String-)Werte ersetzen.
+
+Die meisten Dateisysteme unterscheiden zwischen Groß- und 
+Kleinschreibung. Achte darauf, den richtigen Pfad zu verwenden.

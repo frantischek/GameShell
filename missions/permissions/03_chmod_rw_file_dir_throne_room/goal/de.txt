@@ -1,0 +1,22 @@
+Missionsziel
+============
+
+Der Safe im Thronsaal enthält die Krone des Königs.
+Stiehl sie und bewahre sie in deiner Truhe auf.
+
+Außerdem ist der Sockel der Krone mit einer magischen Ziffernfolge 
+beschriftet. Schau dir diese Ziffern an und merke sie dir.
+
+
+Nützliche Befehle
+=================
+
+ls -l
+  Liste die Dateien mit ihren wichtigen Metadaten auf.
+
+  Zugriffsberechtigungen werden in jeder Zeile zuerst aufgelistet.
+
+chmod [OPTIONEN] DATEI
+  Ändere die Berechtigungen für die Datei (oder das Verzeichnis).
+
+  Im Handbuch findest du, welche Optionen verfügbar sind.

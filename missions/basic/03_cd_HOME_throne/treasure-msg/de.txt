@@ -1,0 +1,4 @@
+Gut gemacht!!!
+
+Ab jetzt wird der aktuelle Standort direkt 
+vor der Eingabeaufforderung angezeigt.

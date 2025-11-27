@@ -1,0 +1,25 @@
+Missionsziel
+============
+
+Beim Herumwandern im ersten Stock des Hauptturms fallen dir einige 
+prächtige Gemälde ins Auge. Lege eine Kopie des ältesten in deine 
+Truhe.
+
+
+Nebenziel
+---------
+
+Nimm dir einen Moment Zeit, um die Schönheit der Gemälde zu 
+bewundern.
+
+
+Nützliche Befehle
+=================
+
+ls -l
+  Zeige die Liste der Dateien im aktuellen Verzeichnis mit 
+  zusätzlichen Informationen einschließlich des letzten 
+  Änderungsdatums.
+
+cat DATEI
+  Zeige den Inhalt der Datei an.

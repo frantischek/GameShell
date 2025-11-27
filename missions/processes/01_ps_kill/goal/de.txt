@@ -1,0 +1,27 @@
+Missionsziel
+============
+
+Ein schelmischer Kobold hat einen Zauber gewirkt, der überall im 
+Schloss Kohleschmutze hinterlässt.
+Finde diesen Zauber und entferne ihn.
+
+Hinweis
+-------
+
+Der Zauber ist ein Prozess.
+
+
+Nützliche Befehle
+=================
+
+$PS
+  Liste die Prozesse auf, die gerade von der Shell ausgeführt werden.
+
+kill N
+  Sende das Beendigungssignal an Prozess Nummer N.
+  Hinweis: N wird PID genannt, oder "Prozesskennung".
+
+clear
+  Lösche den Bildschirm.
+  Die Tastenkombination "Control-L" macht dasselbe und ist oft 
+  schneller im Terminal zu verwenden.

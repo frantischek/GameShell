@@ -1,0 +1,17 @@
+Missionsziel
+============
+
+Finde die Silbermünze im Labyrinth im Garten und verschiebe sie mit 
+der Shell in deine Truhe.
+
+
+Nützliche Befehle
+=================
+
+ls -R
+  Zeige die Liste aller Dateien / Verzeichnisse an, einschließlich 
+  derer in Unterverzeichnissen (rekursiv).
+
+tree
+  Zeige den Baum von Dateien und Verzeichnissen, beginnend vom 
+  aktuellen Arbeitsverzeichnis.
