@@ -22,8 +22,8 @@ GameShell is available in English, French, Italian and German.
 
 
 Feel free to send us your remarks, questions or suggestions by opening
-[issues](https://github.com/phyver/GameShell/issues) or submitting
-[pull requests](https://github.com/phyver/GameShell/pulls).
+[issues](https://github.com/frantischek/GameShell/issues) or submitting
+[pull requests](https://github.com/frantischek/GameShell/pulls).
 We are particularly interested in any new missions you might create!
 
 
@@ -46,7 +46,7 @@ dependencies on other systems (macOS, BSD, ...).
 Assuming all the dependencies are installed, you can try the latest version of
 the game by running the following two commands in a terminal.
 ```sh
-$ wget https://github.com/phyver/GameShell/releases/download/latest/gameshell.sh
+$ wget https://github.com/frantischek/GameShell/releases/download/latest/gameshell.sh
 $ bash gameshell.sh
 ```
 The first command will download the latest version of the game in the form of
@@ -63,7 +63,7 @@ If you prefer not running foreign shell scripts on your computer, you can
 generate a Docker image with the following:
 ```sh
 $ mkdir GameShell; cd GameShell
-$ wget --quiet https://github.com/phyver/GameShell/releases/download/latest/Dockerfile
+$ wget --quiet https://github.com/frantischek/GameShell/releases/download/latest/Dockerfile
 $ docker build -t gsh .
 $ docker run -it gsh
 ```

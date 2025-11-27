@@ -6,7 +6,7 @@ Running GameShell (to integrate in the user manual?)
 Download the archive and run the `start.sh` script:
 
 ```sh
-$ rm -rf GameShell && mkdir GameShell && wget  https://api.github.com/repos/phyver/GameShell/tarball -O -  |  tar -xz -C GameShell --strip-components 1
+$ rm -rf GameShell && mkdir GameShell && wget  https://api.github.com/repos/frantischek/GameShell/tarball -O -  |  tar -xz -C GameShell --strip-components 1
 $ ./GameShell/start.sh
 ...
 ...
@@ -15,8 +15,8 @@ $ ./GameShell/start.sh
 If your `tar` version doesn't have the option `--strip-components`, use the
 following:
 ```sh
-$ rm -rf phyver-GameShell-* && wget  https://api.github.com/repos/phyver/GameShell/tarball -O -  |  tar -xz
-$ ./phyver-GameShell-*/start.sh
+$ rm -rf frantischek-GameShell-* && wget  https://api.github.com/repos/frantischek/GameShell/tarball -O -  |  tar -xz
+$ ./frantischek-GameShell-*/start.sh
 ...
 ...
 ```
@@ -26,7 +26,7 @@ $ ./phyver-GameShell-*/start.sh
 
 First clone the repository, and run the `start.sh` script
 ```sh
-$ git clone https://github.com/phyver/GameShell.git
+$ git clone https://github.com/frantischek/GameShell.git
 $ ./GameShell/start.sh
 ...
 ...

@@ -6,7 +6,7 @@ Starting a game
 ---------------
 
 To start playing you need to download either a pre-built executable archive
-(found on the [releases page](https://github.com/phyver/GameShell/releases))
+(found on the [releases page](https://github.com/frantischek/GameShell/releases))
 or the source code of the game.
 
 ### Using an executable archive
@@ -14,12 +14,12 @@ or the source code of the game.
 The easiest way to start the game is to run a self-extracting executable
 archive (see the end of this page to know how to generate one yourself).
 Pre-built archives for the various versions of the game can be found on the
-[releases page](https://github.com/phyver/GameShell/releases).
+[releases page](https://github.com/frantischek/GameShell/releases).
 
 To download and start the latest version of the game simply run the following
 two commands in a terminal.
 ```sh
-$ wget https://github.com/phyver/GameShell/releases/download/latest/gameshell.sh
+$ wget https://github.com/frantischek/GameShell/releases/download/latest/gameshell.sh
 $ bash gameshell.sh
 ```
 
@@ -33,7 +33,7 @@ Alternatively, you can run the game directly from the source code. In that
 case, simply download the repository (either by cloning it or by downloading
 a tarball) and start the game with the following commands:
 ```sh
-$ git clone https://github.com/phyver/GameShell.git
+$ git clone https://github.com/frantischek/GameShell.git
 $ bash GameShell/start.sh
 ```
 

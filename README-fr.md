@@ -18,8 +18,8 @@ Voilà le résultat...
 ![GameShell's first mission](Images/gameshell_first_mission_small.gif)
 
 N'hésitez pas à nous envoyer vos remarques, questions ou suggestions en
-ouvrant des ["issues"](https://github.com/phyver/GameShell/issues) ou en
-soumettant des ["pull requests"](https://github.com/phyver/GameShell/pulls).
+ouvrant des ["issues"](https://github.com/frantischek/GameShell/issues) ou en
+soumettant des ["pull requests"](https://github.com/frantischek/GameShell/pulls).
 Nous sommes particulièrement intéressés pas toute nouvelle mission que vous
 pourriez créer !
 
@@ -44,7 +44,7 @@ En supposant que toutes les dépendances sont installées, vous pouvez essayer
 la dernière version du jeu en lançant les deux commandes suivantes dans un
 terminal.
 ```sh
-$ wget https://github.com/phyver/GameShell/releases/download/latest/gameshell.sh
+$ wget https://github.com/frantischek/GameShell/releases/download/latest/gameshell.sh
 $ bash gameshell.sh
 ```
 La première commande téléchargera la dernière version du jeu sous la forme
@@ -62,7 +62,7 @@ Si vous préférez ne pas exécuter des scripts étrangers sur votre machine,
 vous pouvez générer une image Docker avec :
 ```sh
 $ mkdir GameShell; cd GameShell
-$ wget --quiet https://github.com/phyver/GameShell/releases/download/latest/Dockerfile
+$ wget --quiet https://github.com/frantischek/GameShell/releases/download/latest/Dockerfile
 $ docker build -t gsh .
 $ docker run -it gsh
 ```
