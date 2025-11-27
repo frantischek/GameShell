@@ -1,3 +1,6 @@
+### This is just a german translated fork of https://github.com/phyver/GameShell
+
+
 GameShell: a "game" to teach the Unix shell
 ===========================================
 
